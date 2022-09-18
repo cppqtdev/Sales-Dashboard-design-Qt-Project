@@ -1,11 +1,8 @@
 # QDashBoard
 Sample dashboard developed with QML. Login, plots and several screens.
 
-## Login screen
-![alt text](https://github.com/IndeemaSoftware/QDashBoard/blob/Assets/login.png)
+## Design screen
+![alt text](https://github.com/cppqtdev/Sales-Dashboard-design-Qt-Project/blob/master/Assets/ScreenShots/homeScreenDesign.png?raw=true)
 
 ## Dashboard screen
-![alt text](https://github.com/IndeemaSoftware/QDashBoard/blob/Assets/dashvoard.png)
-
-## Map screen
-![alt text](https://github.com/IndeemaSoftware/QDashBoard/blob/Assets/maps.png)
+![alt text](https://raw.githubusercontent.com/cppqtdev/Sales-Dashboard-design-Qt-Project/master/Assets/ScreenShots/homeScreen.png)
