@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Components/ResponsiveLayout.qml</file>
+        <file>Components/CButton.qml</file>
+        <file>Assets/icons/icons8-bell-24.png</file>
+        <file>Assets/icons/icons8-bookmark-documents-48.png</file>
+        <file>Assets/icons/icons8-chat-message-50.png</file>
+        <file>Assets/icons/icons8-dashboard-32.png</file>
+        <file>Assets/icons/icons8-info-50(1).png</file>
+        <file>Assets/icons/icons8-info-50(2).png</file>
+        <file>Assets/icons/icons8-layers-64.png</file>
+        <file>Assets/icons/icons8-settings-64.png</file>
+        <file>Assets/icons/icons8-shopping-cart-25.png</file>
+        <file>Assets/Images/aksh.jpeg</file>
+        <file>Assets/icons/icons8-shopping-cart-48.png</file>
+        <file>Assets/icons/icons8-end-button-50(1).png</file>
+        <file>Assets/icons/icons8-home-button-50.png</file>
+        <file>Assets/icons/icons8-search-50.png</file>
+        <file>Assets/icons/icons8-search-30.png</file>
+        <file>Assets/Images/hugo-221.png</file>
+    </qresource>
+</RCC>
