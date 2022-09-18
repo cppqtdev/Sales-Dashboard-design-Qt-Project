@@ -1,7 +1,10 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import "./Components"
-Window {
+import QtQuick.Controls 2.5
+import QtQuick.Controls.Material 2.3
+ApplicationWindow {
+    id:window
     width: 1200
     height: 700
     visible: true

@@ -1,6 +1,8 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
+import "../Models"
+
 Item {
     anchors.fill: parent
     ColumnLayout{
@@ -25,6 +27,25 @@ Item {
                     verticalCenter: parent.verticalCenter
                     leftMargin: (parent.height*0.3)
                     left: parent.left
+                }
+            }
+            CButton{
+                color: "transparent"
+                pressColor: "transparent"
+                hoverColor: "transparent"
+                borderColor: "transparent"
+                width: 200
+                height: 150
+                iconWidth: 200
+                iconHeight: 150
+                sourceIcon:"qrc:/Assets/Images/logo.png"
+                anchors{
+                    horizontalCenter: parent.horizontalCenter
+                    right: bellIcon.left
+                    rightMargin: 30
+                }
+                onClicked: {
+                    Qt.openUrlExternally("https://linux.thearticleof.com")
                 }
             }
             RowLayout{
@@ -112,6 +133,7 @@ Item {
                 }
             }
             CButton{
+                id:bellIcon
                 color: "transparent"
                 pressColor: "transparent"
                 hoverColor: "transparent"
@@ -577,6 +599,19 @@ Item {
                             Layout.fillHeight: true
                             color: "#ffffff"
                             radius: 6
+                            ListView {
+                                id: alarmListView
+                                anchors.fill: parent
+                                header: HeaderList {}
+
+                                clip:true
+                                spacing:10
+                                model: ProductModel {}
+                                delegate: ProductDelegate {
+                                }
+                            }
+
+
                         }
                         Rectangle{
                             Layout.preferredWidth: 300

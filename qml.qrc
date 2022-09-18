@@ -19,5 +19,16 @@
         <file>Assets/icons/icons8-search-50.png</file>
         <file>Assets/icons/icons8-search-30.png</file>
         <file>Assets/Images/hugo-221.png</file>
+        <file>Models/ProductModel.qml</file>
+        <file>Models/ProductDelegate.qml</file>
+        <file>Models/HeaderList.qml</file>
+        <file>Assets/Images/bluetooth.png</file>
+        <file>Assets/Images/IMG-20220915-WA0004.jpg</file>
+        <file>Assets/Images/minimal-skincare-tube-mockup-png-beauty-product-packaging.jpg</file>
+        <file>Assets/Images/PKR1R90.jpg</file>
+        <file>Assets/Images/settings.png</file>
+        <file>Assets/Images/update.png</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>Assets/Images/logo.png</file>
     </qresource>
 </RCC>
